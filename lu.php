@@ -48,11 +48,9 @@
 		}
 		a {
 			color: black;
-	    text-decoration: none;
-	    &:hover, &:active {
-      text-decoration: none;
-    }
-	  }
+			text-decoration: none;
+			out-line: none;
+		}
 		body{
 			background-color:#2f3140;
 		}
@@ -79,9 +77,9 @@
 	<script>
 
 		function save(){
-			let xhr = new XMLHttpRequest();
-			let bikeNum = document.querySelector('#bikeNum').value;
-			let password = document.querySelector('#password').value;
+			var xhr = new XMLHttpRequest();
+			var bikeNum = document.querySelector('#bikeNum').value;
+			var password = document.querySelector('#password').value;
 			xhr.onreadystatechange = function()
 		  {
 		  if (xhr.readyState==4 && xhr.status==200)
