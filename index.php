@@ -12,7 +12,7 @@
 		input[type=text]{
 			outline: none;   
     	border: 1px solid #fff;
-    	height: 32px;
+    	height: 35px;
     	width: 80%;
     	border-radius: 25px;
     	text-align: center;
@@ -21,7 +21,7 @@
 			outline: none;   
     	border: 1px solid #2ac87d;
     	background-color: #2ac87d;
-    	height: 34px;
+    	height: 37px;
     	width: 80%;
     	border-radius: 25px;
     	text-align: center;
@@ -29,7 +29,7 @@
 		.tips{
 			width: 80%;
 			margin:20px auto;
-			padding: 5px 5px;
+			padding: 8px 5px;
 			font-size: 13px;
 			background: #999;
 			border-radius: 10px;
@@ -38,8 +38,8 @@
 			display: block;
     	margin: 0 auto;
     	background-color: #f3c12e;
-    	height: 34px;
-    	line-height: 34px;
+    	height: 37px;
+    	line-height: 37px;
     	width: 80%;
     	border-radius: 25px;
     	font-size: 13px;
@@ -48,6 +48,9 @@
 		a {
 			color: black;
 	    text-decoration: none;
+	    &:hover, &:active {
+      text-decoration: none;
+    }
 	  }
 		body{
 			background-color:#2f3140;
