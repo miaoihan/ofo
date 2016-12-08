@@ -24,11 +24,8 @@
 </div>
 <script>
 	function fn_seach(){
-			alert(111)
 			var xhr = new XMLHttpRequest();
-			alert(222)
 			var bikeNum = document.querySelector('#bikeNum').value;
-			alert(333)
 			xhr.onreadystatechange = function()
 		  {
 		  if (xhr.readyState==4 && xhr.status==200)
@@ -38,7 +35,6 @@
 		  }
 			xhr.open("get","./search.php?bikeNum="+ bikeNum,true);
 			xhr.send();
-			alert(444)
 		}
 	</script>
 </body>
