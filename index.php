@@ -56,24 +56,6 @@
 			background-color:#2f3140;
 		}
 	</style>
-</head>
-<body>
-
-<div class="container">
-	<div class="tips">
-	  请输入车牌号，稍等会密码就会出现！
-	</div>
-		<div>
-			<input type="text" name="bikeNum" placeholder="车牌号" id="bikeNum">
-		</div>
-		<div style="margin-top: 20px">
-			<input type="text" name="password" placeholder="密码" disabled="true"  id="password">
-		</div>
-		<div style="margin-top: 20px">
-			<input type="submit" value="查询" onclick="search()">
-		</div>
-	<a href="lu.php" class="go" style="margin-top: 20px">去录入</a>
-</div>
 	<script>
 		function search(){
 			alert(111)
@@ -93,5 +75,24 @@
 			alert(444)
 		}
 	</script>
+</head>
+<body>
+
+<div class="container">
+	<div class="tips">
+	  请输入车牌号，稍等会密码就会出现！
+	</div>
+		<div>
+			<input type="text" name="bikeNum" placeholder="车牌号" id="bikeNum">
+		</div>
+		<div style="margin-top: 20px">
+			<input type="text" name="password" placeholder="密码" disabled="true"  id="password">
+		</div>
+		<div style="margin-top: 20px">
+			<input type="submit" value="查询" onclick="search()">
+		</div>
+	<a href="lu.php" class="go" style="margin-top: 20px">去录入</a>
+</div>
+
 </body>
 </html>
