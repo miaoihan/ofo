@@ -72,7 +72,7 @@
 		<div style="margin-top: 20px">
 			<input type="submit" value="查询" onclick="search()">
 		</div>
-	<a href="lu.html" class="go" style="margin-top: 20px">去录入</a>
+	<a href="lu.php" class="go" style="margin-top: 20px">去录入</a>
 </div>
 	<script>
 		function search(){

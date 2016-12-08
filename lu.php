@@ -73,7 +73,7 @@
 		<div style="margin-top: 20px">
 			<input type="submit" value="录入" onclick="save()">
 		</div>
-	<a href="index.html" class="go" style="margin-top: 20px">去用车</a>
+	<a href="index.php" class="go" style="margin-top: 20px">去用车</a>
 </div>
 	<script>
 
