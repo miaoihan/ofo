@@ -89,7 +89,7 @@
 			<input type="text" name="password" placeholder="密码" disabled="true"  id="password">
 		</div>
 		<div style="margin-top: 20px">
-			<input type="submit" value="查询" onclick="search()">
+			<input type="submit" value="查询" onclick="alert(123)">
 		</div>
 	<a href="lu.php" class="go" style="margin-top: 20px">去录入</a>
 </div>
