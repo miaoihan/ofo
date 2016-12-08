@@ -20,21 +20,18 @@
 		}
 		.btn-round{
 			display: block;
-    	margin: 0 auto;
-    	background-color: #f3c12e;
-    	height: 37px;
-    	line-height: 37px;
-    	width: 80%;
-    	border-radius: 25px;
-    	font-size: 13px;
-    	text-align: center;
+			margin: 0 auto;
+			background-color: #f3c12e;
+			height: 37px;
+			line-height: 37px;
+			width: 80%;
+			border-radius: 25px;
+			font-size: 13px;
+			text-align: center;
 		}
 		a {
 			color: black;
 	    text-decoration: none;
-	    &:hover, &:active {
-      text-decoration: none;
-    }
 	  }
 		body{
 			background-color:#2f3140;
