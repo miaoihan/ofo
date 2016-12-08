@@ -8,27 +8,7 @@
 </head>
 <body>
 <script>
-	function fn(){
-		alert(666)
-	}
-</script>
-<div class="container">
-	<div class="tips">
-	  请输入车牌号，稍等会密码就会出现！
-	</div>
-		<div>
-			<input type="text" name="bikeNum" placeholder="车牌号" id="bikeNum">
-		</div>
-		<div style="margin-top: 20px">
-			<input type="text" name="password" placeholder="密码" disabled="true"  id="password">
-		</div>
-		<div style="margin-top: 20px">
-			<div class="btn-round" style="margin-top: 20px;background-color: #2ac87d" onclick="fn()">查询</a>
-		</div>
-	<a href="lu.php" class="btn-round" style="margin-top: 20px">去录入</a>
-</div>
-<script>
-		function search(){
+	function search(){
 			alert(111)
 			let xhr = new XMLHttpRequest();
 			alert(222)
@@ -45,6 +25,27 @@
 			xhr.send();
 			alert(444)
 		}
+</script>
+<div class="container">
+	<div class="tips">
+	  请输入车牌号，稍等会密码就会出现！
+	</div>
+		<div>
+			<input type="text" name="bikeNum" placeholder="车牌号" id="bikeNum">
+		</div>
+		<div style="margin-top: 20px">
+			<input type="text" name="password" placeholder="密码" disabled="true"  id="password">
+		</div>
+		<div style="margin-top: 20px">
+			<div class="btn-round" style="margin-top: 20px;background-color: #2ac87d" onclick="search()">查询</a>
+		</div>
+	<a href="lu.php" class="btn-round" style="margin-top: 20px">去录入</a>
+</div>
+<script>
+function fn(){
+		alert(666)
+	}
+		
 	</script>
 </body>
 </html>
